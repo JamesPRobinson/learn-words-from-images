@@ -7,6 +7,7 @@ ENV APP_HOME /app
 WORKDIR $APP_HOME
 COPY . ./
 
+RUN  npm install typescript -g
 RUN npm run build
 
 # Install production dependencies.
