@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "pug": "^3.0.2",
+    "puppeteer": "^22.7.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "main": "app_express/dist/index.js",
+  "scripts": {
+    "build": "cd app_express && tsc",
+    "start": "cd app_express && node dist/index.js",
+    "dev": "cd app_express && nodemon src/index.ts -e ts,tsx,js,css,pug --watch ./**"
+  }
+}
