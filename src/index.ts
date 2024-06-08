@@ -1,5 +1,5 @@
 import express from 'express'
-const data = require("../boxes.json")
+const data = require("../objects.json")
 const app = express()
 const port = 3000
 import { BoundingBox, pick_random, shuffle } from './utils'
