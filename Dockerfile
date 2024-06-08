@@ -1,6 +1,4 @@
-# Use the official NodeJS image.
-# https://hub.docker.com/_/node
-FROM node:16-slim
+FROM node:18-slim
 
 # Copy local code to the container image.
 ENV APP_HOME /app
