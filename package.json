@@ -14,8 +14,8 @@
   },
   "main": "app_express/dist/index.js",
   "scripts": {
-    "build": "cd app_express && tsc",
-    "start": "cd app_express && node dist/index.js",
-    "dev": "cd app_express && nodemon src/index.ts -e ts,tsx,js,css,pug --watch ./**"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts -e ts,tsx,js,css,pug --watch ./**"
   }
 }
