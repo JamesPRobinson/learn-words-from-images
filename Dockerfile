@@ -5,7 +5,7 @@ ENV APP_HOME /app
 WORKDIR $APP_HOME
 COPY . ./
 
-RUN npm install --only=production
+RUN npm install 
 RUN npm run build
 
 # Run the web service on container startup.
