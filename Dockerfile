@@ -6,6 +6,7 @@ WORKDIR $APP_HOME
 COPY . ./
 
 RUN npm install 
+RUN npm install -g typescript 
 RUN npm run build
 
 # Run the web service on container startup.
