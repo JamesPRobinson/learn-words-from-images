@@ -1,12 +1,13 @@
 export interface BoundingBox {
   box: number[]
+  dissimilar_ids: number[]
   in_summary: boolean
   name: string
   score: number
   systents_same: boolean
   translation: string
 }
-interface GoogleTranslateResults {
+interface TranslateResults {
   obj: string
   translate: string
   translate_cleaned: string
@@ -15,53 +16,32 @@ interface ImageClassifyResults {
   objects: string[]
   summary: string
 }
-interface LangImage {
+export interface LangImage {
   url: string
   unplash_desc: string
   results: ImageClassifyResults[]
   bounding_boxes: BoundingBox[]
   gl_summary_translation_it: string
-  gl_translation_it: GoogleTranslateResults[]
+  gl_translation_it: TranslateResults[]
 }
-// simple string matching checks for a pool of unrelated answers
-const is_related = (already_chosen: string[], choice: string): boolean => {
-  return (
-    already_chosen.filter(
-      x =>
-        x.toLowerCase().includes(choice.toLowerCase()) ||
-        choice.toLowerCase().includes(x.toLowerCase())
-    ).length > 0 || already_chosen.includes(choice.toLowerCase())
-  )
+const fetch_image_by_id = (choices: LangImage[], id: number): BoundingBox => {
+  const split_id = id.toString().split('.')
+  const id_image = Number(split_id[0])
+  const id_bbox = Number(split_id[1] ?? 0)
+  return choices[id_image]['bounding_boxes'][id_bbox]
 }
-// pick initial image, and then subsequently random wrong answers from other images
-export const pick_random = (
-  choices: LangImage[],
-  n: number = 1,
-  already_chosen: string[] = []
-): LangImage[] => {
-  const selected: LangImage[] = []
-  var limit = 0
-  const max_search = 100
-  while (limit < max_search) {
-    // get a random choice from list
-    const index = Math.floor(Math.random() * choices.length)
-    // extracts
-    const random_choice = choices[index]
-    // check has already been chosen if n > 0
-    const names_in_choice = random_choice.bounding_boxes.flatMap(
-      x => x.translation
+export const fetch_wrong_answer_names = (
+  data: LangImage[],
+  right_answer: BoundingBox,
+  no_answers: number = 4
+): string[] => {
+  const wrong_names: string[] = []
+  for (let i = 0; i < no_answers; i++) {
+    wrong_names.push(
+      fetch_image_by_id(data, right_answer.dissimilar_ids[i]).translation
     )
-    const overlap = names_in_choice.filter(x => is_related(already_chosen, x))
-    if (overlap.length === 0) {
-      selected.push(random_choice)
-      already_chosen.concat(names_in_choice)
-    }
-    limit++
-    if (selected.length == n) {
-      break
-    }
   }
-  return selected
+  return wrong_names
 }
 // fisher-yates
 export const shuffle = (array: string[]): string[] => {

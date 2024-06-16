@@ -69,15 +69,9 @@ script.
                       button.classList.add("right_answer");
                       context.strokeStyle = "green";
                       await drawRect(last_box);
-                      if (result.all_answers == true) {
-                          await new Promise(resolve => setTimeout(resolve, 100 || 1000));
-                          document.location.href = "/";
-                          return;
-                      }
-                      var box = result.new_box;
-                      context.strokeStyle = "red";
-                      await drawRect(box);
-                      last_box = box;
+                      await new Promise(resolve => setTimeout(resolve, 100 || 1000));
+                      document.location.href = "/";
+                      return;
                   } else {
                       button.classList.add("wrong_answer");
                   }
