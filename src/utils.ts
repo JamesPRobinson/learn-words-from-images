@@ -38,7 +38,12 @@ export const fetch_wrong_answer_names = (
   const wrong_names: string[] = []
   for (let i = 0; i < no_answers; i++) {
     wrong_names.push(
-      fetch_image_by_id(data, right_answer.dissimilar_ids[i]).translation
+      fetch_image_by_id(
+        data,
+        right_answer.dissimilar_ids[
+          Math.floor(Math.random() * right_answer.dissimilar_ids.length)
+        ]
+      ).translation
     )
   }
   return wrong_names
