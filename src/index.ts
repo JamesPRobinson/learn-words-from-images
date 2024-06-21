@@ -1,7 +1,7 @@
 require('dotenv').config()
 import express from 'express'
 var session = require('express-session')
-const data = require(process.env.FILE_PATH?.toString() ?? "../example_objects.json")
+const data = require(process.env.OBJECT_PATH?.toString() ?? "../example_objects.json")
 const app = express()
 const port = 8080
 import {
