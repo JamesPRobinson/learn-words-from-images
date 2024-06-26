@@ -43,8 +43,8 @@ export const fetch_wrong_answer_names = (
       right_answer.dissimilar_ids[
         Math.floor(Math.random() * right_answer.dissimilar_ids.length)
       ]
-    ).translation;
-    if (!wrong_names.includes(translation)) {
+    )?.translation;
+    if (!wrong_names.includes(translation) && translation != undefined) {
       wrong_names.push(translation);
       count += 1;
     }
