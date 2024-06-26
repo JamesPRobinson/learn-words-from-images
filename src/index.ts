@@ -1,7 +1,9 @@
 require('dotenv').config()
 import express from 'express'
+const { expressCspHeader, INLINE, NONE, SELF } = require('express-csp-header')
 var session = require('express-session')
-const data = require(process.env.OBJECT_PATH?.toString() ?? "../example_objects.json")
+const data = require(process.env.OBJECT_PATH?.toString() ??
+  '../example_objects.json')
 const app = express()
 const port = 8080
 import {
@@ -20,6 +22,17 @@ declare module 'express-session' {
   }
 }
 app.use(express.json())
+app.use(
+  expressCspHeader({
+    directives: {
+      'default-src': [SELF],
+      'script-src': [SELF, INLINE],
+      'style-src': [SELF, INLINE],
+      'img-src': ['https://images.unsplash.com/', SELF],
+      'worker-src': [NONE]
+    }
+  })
+)
 app.set('view engine', 'pug')
 app.use('/public', express.static('public'))
 app.use(
@@ -56,7 +69,7 @@ app.get('/', (req: express.Request, res: express.Response) => {
 app.post('/answer', (req, res) => {
   // answer as chosen by user
   const button_pressed = req.body.text
-  // index that is tracking possible choices: does it's balue match the text chosen by user?
+  // index that is tracking possible choices: does it's value match the text chosen by user?
   const is_in_image = req?.session?.data?.bbox?.translation == button_pressed
   res.send({ in_image: is_in_image })
 })
