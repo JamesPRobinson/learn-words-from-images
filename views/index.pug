@@ -9,9 +9,11 @@ html
   body
     div(class="grid-container")
       div(class="row1")
+        a(href=`${artist_link}`) #{artist_name}
+      div(class="row2")
         canvas
         img(id="original_unsplash_image" src=`${url}`)
-      div(class="row2")
+      div(class="row3")
         div(class="btn-toolbar")
           for name in names
             button(class="answer-button disabled" onclick="submit_answer(this)" disabled="disabled")=name

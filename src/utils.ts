@@ -1,52 +1,42 @@
-export interface BoundingBox {
+export interface Object {
   box: number[]
-  dissimilar_ids: number[]
   in_summary: boolean
+  manual: boolean
   name: string
   score: number
   systents_same: boolean
-  translation: string
-}
-interface TranslateResults {
-  obj: string
   translate: string
-  translate_cleaned: string
 }
-interface ImageClassifyResults {
-  objects: string[]
-  summary: string
+interface NotInImage {
+  name: string
+  translate: string
+}
+interface Credit {
+  photographer_username: string
+  photographer_first_name: string
+  photographer_last_name: string
 }
 export interface LangImage {
+  credit: Credit
   url: string
   unplash_desc: string
-  results: ImageClassifyResults[]
-  bounding_boxes: BoundingBox[]
-  gl_summary_translation_it: string
-  gl_translation_it: TranslateResults[]
+  objects: Object[]
+  summary: string
+  summary_translation: string
+  not_in_image: NotInImage[]
 }
-const fetch_image_by_id = (choices: LangImage[], id: number): BoundingBox => {
-  const split_id = id.toString().split('.')
-  const id_image = Number(split_id[0])
-  const id_bbox = Number(split_id[1] ?? 0)
-  return choices[id_image]['bounding_boxes'][id_bbox]
-}
+
 export const fetch_wrong_answer_names = (
-  data: LangImage[],
-  right_answer: BoundingBox,
+  data: LangImage,
   no_answers: number = 4
 ): string[] => {
   const wrong_names: string[] = []
-  var count = 0
-  while (count < no_answers) {
-    var translation = fetch_image_by_id(
-      data,
-      right_answer.dissimilar_ids[
-        Math.floor(Math.random() * right_answer.dissimilar_ids.length)
-      ]
-    )?.translation;
-    if (!wrong_names.includes(translation) && translation != undefined) {
-      wrong_names.push(translation);
-      count += 1;
+  while (wrong_names.length < no_answers) {
+    var wrong_name =
+      data.not_in_image[Math.floor(Math.random() * data.not_in_image.length)]
+        .translate
+    if (!wrong_names.includes(wrong_name)) {
+      wrong_names.push(wrong_name)
     }
   }
   return wrong_names
