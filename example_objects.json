@@ -1,8 +1,76 @@
 [
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
+                "box": [
+                    2693.82,
+                    930.59,
+                    3383.23,
+                    1506.12
+                ],
+                "name": "surfboard",
+                "score": 0.349,
+                "translate": "la tavola da surf",
+                "sysnets_same": false,
+                "in_summary": false,
+                "manual": true
+            }
+        ],
+        "summary": "A man surfboarding on an ocean wave during daytime.",
+        "unsplash_desc": "man surfboarding on ocean wave during daytime",
+        "url": "https://images.unsplash.com/uploads/141219200475673afcb68/f5bd8360",
+        "not_in_image": [
+            {
+                "name": "green and white cactus plants",
+                "translate": "le piante di cactus verde e bianco"
+            },
+            {
+                "name": "pine trees",
+                "translate": "i pini"
+            },
+            {
+                "name": "clouds",
+                "translate": "le nuvole"
+            },
+            {
+                "name": "mountain",
+                "translate": "la montagna"
+            },
+            {
+                "name": "housing complex",
+                "translate": "il complesso abitativo"
+            },
+            {
+                "name": "lot",
+                "translate": "il lotto"
+            },
+            {
+                "name": "white and brown persian cat",
+                "translate": "il gatto persiano bianco e marrone"
+            },
+            {
+                "name": "yellow and black sunflower",
+                "translate": "il girasole giallo e nero"
+            },
+            {
+                "name": "contrail",
+                "translate": "il contrail"
+            },
+            {
+                "name": "trees",
+                "translate": "gli alberi"
+            }
+        ],
+        "summary_translation": "Un uomo che naviga su un'onda sull'oceano durante il giorno.",
+        "credit": {
+            "photographer_username": "marcusdallcol",
+            "photographer_first_name": "Marcus",
+            "photographer_last_name": "Dall Col"
+        }
+    },
+    {
+        "objects": [
+            {
                 "box": [
                     -17.88,
                     19.53,
@@ -11,59 +79,67 @@
                 ],
                 "name": "pig",
                 "score": 0.294,
+                "translate": "il maiale",
                 "sysnets_same": true,
-                "translation": "il maiale",
                 "in_summary": false,
-                "dissimilar_ids": [
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "10.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "22.0",
-                    "23.0",
-                    "25.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "Fotografia ravvicinata di maialini neri che dormono",
-        "unplash_desc": "close up photography of black pig sleeping",
+        "summary": "Close up photography of black pig sleeping",
+        "unsplash_desc": "close up photography of black pig sleeping",
         "url": "https://images.unsplash.com/photo-1484613220808-172ca2e512ae",
-        "id": 0
+        "not_in_image": [
+            {
+                "name": "geology",
+                "translate": "La geologia"
+            },
+            {
+                "name": "waterfall",
+                "translate": "la cascata"
+            },
+            {
+                "name": "green and brown maple leaf",
+                "translate": "la foglia d'acero verde e marrone"
+            },
+            {
+                "name": "gray cumulus clouds",
+                "translate": "le nuvole di cumulo grigio"
+            },
+            {
+                "name": "white ceramic bowl",
+                "translate": "la ciotola in ceramica bianca"
+            },
+            {
+                "name": "short-coated black dog",
+                "translate": "il cane nero a corto"
+            },
+            {
+                "name": "ice",
+                "translate": "il ghiaccio"
+            },
+            {
+                "name": "leaves",
+                "translate": "le foglie"
+            },
+            {
+                "name": "evergreen",
+                "translate": "il sempreverde"
+            },
+            {
+                "name": "cliff",
+                "translate": "la scogliera"
+            }
+        ],
+        "summary_translation": "Fotografia ravvicinata di maialini neri che dormono",
+        "credit": {
+            "photographer_username": "jonjons",
+            "photographer_first_name": "Jon",
+            "photographer_last_name": "Butterworth"
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
                 "box": [
                     2846.32,
                     1437.25,
@@ -72,47 +148,12 @@
                 ],
                 "name": "car",
                 "score": 0.152,
+                "translate": "l'auto",
                 "sysnets_same": true,
-                "translation": "l'auto",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.7",
-                    "15.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "25.0"
-                ]
+                "manual": false
             },
             {
-                "id": 1,
                 "box": [
                     1896.71,
                     1210.65,
@@ -121,57 +162,67 @@
                 ],
                 "name": "girl",
                 "score": 0.16,
+                "translate": "la ragazza",
                 "sysnets_same": true,
-                "translation": "la ragazza",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "2.0",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "Ragazza in piedi vicino all'auto bianca sulla strada con luci colorate.",
-        "unplash_desc": "girl standing near white car on road",
+        "summary": "Girl standing near white car on road with colorful lights.",
+        "unsplash_desc": "girl standing near white car on road",
         "url": "https://images.unsplash.com/photo-1519078530698-192fb43eeb6b",
-        "id": 1
+        "not_in_image": [
+            {
+                "name": "gray cumulus clouds",
+                "translate": "le nuvole di cumulo grigio"
+            },
+            {
+                "name": "several assorted power switches",
+                "translate": "i vari interruttori di alimentazione assortiti"
+            },
+            {
+                "name": "skyway",
+                "translate": "lo skyway"
+            },
+            {
+                "name": "red object",
+                "translate": "l'oggetto rosso"
+            },
+            {
+                "name": "sand",
+                "translate": "la sabbia"
+            },
+            {
+                "name": "beach",
+                "translate": "la spiaggia"
+            },
+            {
+                "name": "body of water",
+                "translate": "il corpo idrico"
+            },
+            {
+                "name": "planets",
+                "translate": "i pianeti"
+            },
+            {
+                "name": "shoreline",
+                "translate": "il litorale"
+            },
+            {
+                "name": "branch",
+                "translate": "il ramo"
+            }
+        ],
+        "summary_translation": "Ragazza in piedi vicino all'auto bianca sulla strada con luci colorate.",
+        "credit": {
+            "photographer_username": "folkcarlos",
+            "photographer_first_name": "Carlos",
+            "photographer_last_name": ""
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
                 "box": [
                     2543.84,
                     958.47,
@@ -180,55 +231,67 @@
                 ],
                 "name": "fish",
                 "score": 0.441,
+                "translate": "il pesce",
                 "sysnets_same": true,
-                "translation": "il pesce",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "10.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "23.0",
-                    "25.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "Questa ÃƒÂ¨ una foto di un pesce di animali domestici grigi che nuota sott'acqua. L'immagine cattura il pesce nel suo habitat naturale, circondato dall'acqua.",
-        "unplash_desc": "photo of grey pet fish underwater",
+        "summary": "This is a photo of a grey pet fish swimming underwater. The image captures the fish in its natural habitat, surrounded by water.",
+        "unsplash_desc": "photo of grey pet fish underwater",
         "url": "https://images.unsplash.com/photo-1519050873043-2254a44f2052",
-        "id": 2
+        "not_in_image": [
+            {
+                "name": "photography",
+                "translate": "la fotografia"
+            },
+            {
+                "name": "ground",
+                "translate": "il terreno"
+            },
+            {
+                "name": "forest",
+                "translate": "la foresta"
+            },
+            {
+                "name": "ocean waves",
+                "translate": "le onde dell'oceano"
+            },
+            {
+                "name": "island",
+                "translate": "l'isola"
+            },
+            {
+                "name": "grass",
+                "translate": "l'erba"
+            },
+            {
+                "name": "spoon",
+                "translate": "il cucchiaio"
+            },
+            {
+                "name": "red rock landscape",
+                "translate": "Il paesaggio roccioso rosso"
+            },
+            {
+                "name": "daytime sky",
+                "translate": "Il cielo diurno"
+            },
+            {
+                "name": "rocks",
+                "translate": "le rocce"
+            }
+        ],
+        "summary_translation": "Questa è una foto di un pesce di animali domestici grigi che nuota sott'acqua. L'immagine cattura il pesce nel suo habitat naturale, circondato dall'acqua.",
+        "credit": {
+            "photographer_username": "michaelbweidner",
+            "photographer_first_name": "Michael & Diane",
+            "photographer_last_name": "Weidner"
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
                 "box": [
                     579.77,
                     1137.93,
@@ -237,52 +300,12 @@
                 ],
                 "name": "man",
                 "score": 0.168,
+                "translate": "l'uomo",
                 "sysnets_same": true,
-                "translation": "l'uomo",
                 "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "2.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0"
-                ]
+                "manual": false
             },
             {
-                "id": 1,
                 "box": [
                     834.93,
                     1232.41,
@@ -291,50 +314,12 @@
                 ],
                 "name": "woman",
                 "score": 0.186,
+                "translate": "la donna",
                 "sysnets_same": true,
-                "translation": "la donna",
                 "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "2.0",
-                    "3.0",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0"
-                ]
+                "manual": false
             },
             {
-                "id": 2,
                 "box": [
                     592.96,
                     1266.75,
@@ -343,54 +328,26 @@
                 ],
                 "name": "suit",
                 "score": 0.236,
+                "translate": "l'abito",
                 "sysnets_same": true,
-                "translation": "l'abito",
                 "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "manual": false
             },
             {
-                "id": 3,
+                "box": [
+                    811.77,
+                    1512.65,
+                    1187.58,
+                    2692.56
+                ],
+                "name": "dress",
+                "score": 0.23,
+                "translate": "il vestito",
+                "sysnets_same": true,
+                "in_summary": false,
+                "manual": false
+            },
+            {
                 "box": [
                     829.89,
                     1540.87,
@@ -399,62 +356,67 @@
                 ],
                 "name": "dress",
                 "score": 0.297,
+                "translate": "il vestito",
                 "sysnets_same": true,
-                "translation": "il vestito",
                 "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "Un paio di posa per una foto di matrimonio sulle rocce.",
-        "unplash_desc": "man and woman standing on the rocks",
+        "summary": "A couple posing for a wedding photo on rocks.",
+        "unsplash_desc": "man and woman standing on the rocks",
         "url": "https://images.unsplash.com/photo-1540868588416-3e01bb57d3e5",
-        "id": 3
+        "not_in_image": [
+            {
+                "name": "beach",
+                "translate": "la spiaggia"
+            },
+            {
+                "name": "light",
+                "translate": "la luce"
+            },
+            {
+                "name": "brown sand",
+                "translate": "la sabbia marrone"
+            },
+            {
+                "name": "gold and red ornaments",
+                "translate": "gli ornamenti oro e rossi"
+            },
+            {
+                "name": "bed of clouds",
+                "translate": "il letto di nuvole"
+            },
+            {
+                "name": "brown and white cat",
+                "translate": "il gatto marrone e bianco"
+            },
+            {
+                "name": "grass",
+                "translate": "l'erba"
+            },
+            {
+                "name": "ocean",
+                "translate": "l'oceano"
+            },
+            {
+                "name": "wave",
+                "translate": "l'onda"
+            },
+            {
+                "name": "crate",
+                "translate": "la cassa"
+            }
+        ],
+        "summary_translation": "Un paio di posa per una foto di matrimonio sulle rocce.",
+        "credit": {
+            "photographer_username": "laurenraderphoto",
+            "photographer_first_name": "Lauren",
+            "photographer_last_name": "Rader"
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
                 "box": [
                     2209.32,
                     1418.67,
@@ -463,63 +425,67 @@
                 ],
                 "name": "classic red and white bus",
                 "score": 0.179,
+                "translate": "il classico autobus rosso e bianco",
                 "sysnets_same": false,
-                "translation": "il classico autobus rosso e bianco",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "Un classico autobus rosso e bianco parcheggiato sul lato di una strada.",
-        "unplash_desc": "classic red and white bus parked beside road",
+        "summary": "A classic red and white bus parked on the side of a road.",
+        "unsplash_desc": "classic red and white bus parked beside road",
         "url": "https://images.unsplash.com/photo-1546561927-370e6e533f9b",
-        "id": 4
+        "not_in_image": [
+            {
+                "name": "waves",
+                "translate": "le onde"
+            },
+            {
+                "name": "wave",
+                "translate": "l'onda"
+            },
+            {
+                "name": "ancient columns",
+                "translate": "le antiche colonne"
+            },
+            {
+                "name": "turtle",
+                "translate": "la tartaruga"
+            },
+            {
+                "name": "string lights",
+                "translate": "le luci della corda"
+            },
+            {
+                "name": "turquoise water",
+                "translate": "L'acqua turchese"
+            },
+            {
+                "name": "man in brown leather jacket",
+                "translate": "L'uomo in giacca di pelle marrone"
+            },
+            {
+                "name": "feather",
+                "translate": "la piuma"
+            },
+            {
+                "name": "ocean",
+                "translate": "l'oceano"
+            },
+            {
+                "name": "petals",
+                "translate": "i petali"
+            }
+        ],
+        "summary_translation": "Un classico autobus rosso e bianco parcheggiato sul lato di una strada.",
+        "credit": {
+            "photographer_username": "mkwcalvin",
+            "photographer_first_name": "Calvin",
+            "photographer_last_name": "Ma"
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
                 "box": [
                     115.82,
                     3.42,
@@ -528,59 +494,67 @@
                 ],
                 "name": "bald eagle",
                 "score": 0.22,
+                "translate": "l'aquila calva",
                 "sysnets_same": false,
-                "translation": "l'aquila calva",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "25.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "Un'aquila calva con le ali si diffuse, volando su un campo di erba verde.",
-        "unplash_desc": "Bald Eagle over green grass field",
+        "summary": "A bald eagle with its wings spread wide, flying over a green grass field.",
+        "unsplash_desc": "Bald Eagle over green grass field",
         "url": "https://images.unsplash.com/photo-1547230035-903fba318473",
-        "id": 5
+        "not_in_image": [
+            {
+                "name": "sand",
+                "translate": "la sabbia"
+            },
+            {
+                "name": "beach shore",
+                "translate": "La spiaggia"
+            },
+            {
+                "name": "ground",
+                "translate": "il terreno"
+            },
+            {
+                "name": "clouds",
+                "translate": "le nuvole"
+            },
+            {
+                "name": "road",
+                "translate": "la strada"
+            },
+            {
+                "name": "branches",
+                "translate": "i rami"
+            },
+            {
+                "name": "light",
+                "translate": "la luce"
+            },
+            {
+                "name": "sky",
+                "translate": "il cielo"
+            },
+            {
+                "name": "person",
+                "translate": "la persona"
+            },
+            {
+                "name": "walkway",
+                "translate": "la passerella"
+            }
+        ],
+        "summary_translation": "Un'aquila calva con le ali si diffuse, volando su un campo di erba verde.",
+        "credit": {
+            "photographer_username": "brock222",
+            "photographer_first_name": "Richard",
+            "photographer_last_name": "Lee"
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
                 "box": [
                     39.87,
                     3.47,
@@ -589,53 +563,12 @@
                 ],
                 "name": "house",
                 "score": 0.167,
+                "translate": "la casa",
                 "sysnets_same": true,
-                "translation": "la casa",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "manual": false
             },
             {
-                "id": 1,
                 "box": [
                     895.41,
                     2120.2,
@@ -644,58 +577,81 @@
                 ],
                 "name": "woman",
                 "score": 0.199,
+                "translate": "la donna",
                 "sysnets_same": true,
-                "translation": "la donna",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "2.0",
-                    "3.0",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "Donna che tiene un mazzo di fiori di fronte a una casa.",
-        "unplash_desc": "a woman holding a bouquet of flowers in front of a house",
+        "summary": "Woman holding a bouquet of flowers in front of a house.",
+        "unsplash_desc": "a woman holding a bouquet of flowers in front of a house",
         "url": "https://images.unsplash.com/photo-1554153816-af71bd705128",
-        "id": 6
+        "not_in_image": [
+            {
+                "name": "wing",
+                "translate": "l'ala"
+            },
+            {
+                "name": "path",
+                "translate": "il percorso"
+            },
+            {
+                "name": "tilt shift lens",
+                "translate": "L'obiettivo a turno di inclinazione"
+            },
+            {
+                "name": "snow-capped mountain",
+                "translate": "La montagna innevata"
+            },
+            {
+                "name": "brown sand",
+                "translate": "la sabbia marrone"
+            },
+            {
+                "name": "mountain",
+                "translate": "la montagna"
+            },
+            {
+                "name": "brown leaf",
+                "translate": "la foglia marrone"
+            },
+            {
+                "name": "ground covered with snow",
+                "translate": "Il terreno coperto di neve"
+            },
+            {
+                "name": "snow",
+                "translate": "la neve"
+            },
+            {
+                "name": "sunset",
+                "translate": "il tramonto"
+            }
+        ],
+        "summary_translation": "Donna che tiene un mazzo di fiori di fronte a una casa.",
+        "credit": {
+            "photographer_username": "kxvn_lx",
+            "photographer_first_name": "kevin",
+            "photographer_last_name": "laminto"
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
+                "box": [
+                    6.12,
+                    2983.5,
+                    1322.9,
+                    4922.41
+                ],
+                "name": "tent",
+                "score": 0.228,
+                "translate": "la tenda",
+                "sysnets_same": true,
+                "in_summary": true,
+                "manual": false
+            },
+            {
                 "box": [
                     207.47,
                     2884.75,
@@ -704,60 +660,67 @@
                 ],
                 "name": "tent",
                 "score": 0.371,
+                "translate": "la tenda",
                 "sysnets_same": true,
-                "translation": "la tenda",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "17.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "Donna seduta sulla roccia vicino alla tenda nel parco.",
-        "unplash_desc": "woman sitting on rock",
+        "summary": "Woman sitting on rock near tent in park.",
+        "unsplash_desc": "woman sitting on rock",
         "url": "https://images.unsplash.com/photo-1554085520-1e3100950d2f",
-        "id": 7
+        "not_in_image": [
+            {
+                "name": "sea",
+                "translate": "il mare"
+            },
+            {
+                "name": "blinds",
+                "translate": "i ciechi"
+            },
+            {
+                "name": "lotus",
+                "translate": "il loto"
+            },
+            {
+                "name": "shell",
+                "translate": "il guscio"
+            },
+            {
+                "name": "decorative lights reflection",
+                "translate": "le luci decorative che riflettono"
+            },
+            {
+                "name": "ocean",
+                "translate": "l'oceano"
+            },
+            {
+                "name": "gray ceramic mug with plant",
+                "translate": "la tazza di ceramica grigia con pianta"
+            },
+            {
+                "name": "pots",
+                "translate": "i vasi"
+            },
+            {
+                "name": "leaning tower of pisa",
+                "translate": "la torre pendente di Pisa"
+            },
+            {
+                "name": "closed door",
+                "translate": "la porta chiusa"
+            }
+        ],
+        "summary_translation": "Donna seduta sulla roccia vicino alla tenda nel parco.",
+        "credit": {
+            "photographer_username": "jerry_318",
+            "photographer_first_name": "Jerry",
+            "photographer_last_name": "Wang"
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
                 "box": [
                     0.67,
                     -36.63,
@@ -766,61 +729,81 @@
                 ],
                 "name": "palm tree",
                 "score": 0.553,
+                "translate": "la palma",
                 "sysnets_same": false,
-                "translation": "la palma",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "Una palma con un cielo blu sullo sfondo.",
-        "unplash_desc": "a palm tree with a blue sky in the background",
+        "summary": "A palm tree with a blue sky in the background.",
+        "unsplash_desc": "a palm tree with a blue sky in the background",
         "url": "https://images.unsplash.com/photo-1569151987259-07ac874338ee",
-        "id": 8
+        "not_in_image": [
+            {
+                "name": "pot",
+                "translate": "la pentola"
+            },
+            {
+                "name": "blue sky",
+                "translate": "il cielo blu"
+            },
+            {
+                "name": "hill",
+                "translate": "la collina"
+            },
+            {
+                "name": "sky",
+                "translate": "il cielo"
+            },
+            {
+                "name": "brown field",
+                "translate": "il campo marrone"
+            },
+            {
+                "name": "mountains",
+                "translate": "le montagne"
+            },
+            {
+                "name": "pet bed",
+                "translate": "il letto per animali domestici"
+            },
+            {
+                "name": "high-rise building",
+                "translate": "L'edificio grattacielo"
+            },
+            {
+                "name": "dock",
+                "translate": "il dock"
+            },
+            {
+                "name": "selective-focus photograph",
+                "translate": "La fotografia di focus selettivo"
+            }
+        ],
+        "summary_translation": "Una palma con un cielo blu sullo sfondo.",
+        "credit": {
+            "photographer_username": "davidboca",
+            "photographer_first_name": "David",
+            "photographer_last_name": "Boca"
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
+                "box": [
+                    4842.5,
+                    99.68,
+                    5467.4,
+                    653.07
+                ],
+                "name": "egg",
+                "score": 0.198,
+                "translate": "l'uovo",
+                "sysnets_same": true,
+                "in_summary": true,
+                "manual": false
+            },
+            {
                 "box": [
                     4430.9,
                     479.45,
@@ -829,57 +812,109 @@
                 ],
                 "name": "egg",
                 "score": 0.248,
+                "translate": "l'uovo",
                 "sysnets_same": true,
-                "translation": "l'uovo",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "1.0",
-                    "1.1",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "10.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "25.0"
-                ]
+                "manual": false
+            },
+            {
+                "box": [
+                    4989.88,
+                    637.79,
+                    5462.93,
+                    1179.71
+                ],
+                "name": "egg",
+                "score": 0.217,
+                "translate": "l'uovo",
+                "sysnets_same": true,
+                "in_summary": true,
+                "manual": false
+            },
+            {
+                "box": [
+                    4520.14,
+                    878.07,
+                    5363.56,
+                    1576.23
+                ],
+                "name": "egg",
+                "score": 0.193,
+                "translate": "l'uovo",
+                "sysnets_same": true,
+                "in_summary": true,
+                "manual": false
+            },
+            {
+                "box": [
+                    2361.09,
+                    1095.07,
+                    3116.37,
+                    1709.7
+                ],
+                "name": "egg",
+                "score": 0.188,
+                "translate": "l'uovo",
+                "sysnets_same": true,
+                "in_summary": true,
+                "manual": false
             }
         ],
-        "summary": "Gli oggetti includono un nido marrone con uovo beige, piume, coltello, forchetta e cestino.",
-        "unplash_desc": "beige egg on brown nest",
+        "summary": "Objects include a brown nest with a beige egg, feathers, knife, fork and basket.",
+        "unsplash_desc": "beige egg on brown nest",
         "url": "https://images.unsplash.com/photo-1572497697634-3c1ad101c23a",
-        "id": 9
+        "not_in_image": [
+            {
+                "name": "tree line",
+                "translate": "la linea degli alberi"
+            },
+            {
+                "name": "sunset",
+                "translate": "il tramonto"
+            },
+            {
+                "name": "rock formations",
+                "translate": "Le formazioni rocciose"
+            },
+            {
+                "name": "pine trees",
+                "translate": "i pini"
+            },
+            {
+                "name": "leaf",
+                "translate": "la foglia"
+            },
+            {
+                "name": "clouds",
+                "translate": "le nuvole"
+            },
+            {
+                "name": "face",
+                "translate": "il viso"
+            },
+            {
+                "name": "mountains",
+                "translate": "le montagne"
+            },
+            {
+                "name": "trees",
+                "translate": "gli alberi"
+            },
+            {
+                "name": "palm tree",
+                "translate": "la palma"
+            }
+        ],
+        "summary_translation": "Gli oggetti includono un nido marrone con uovo beige, piume, coltello, forchetta e cestino.",
+        "credit": {
+            "photographer_username": "lucasmendesph",
+            "photographer_first_name": "lucas",
+            "photographer_last_name": "mendes"
+        }
     },
     {
-        "bounding_boxes": [
+        "objects": [
             {
-                "id": 0,
                 "box": [
                     320.48,
                     1493.11,
@@ -888,1401 +923,62 @@
                 ],
                 "name": "lion",
                 "score": 0.201,
+                "translate": "il leone",
                 "sysnets_same": true,
-                "translation": "il leone",
                 "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "manual": false
             }
         ],
-        "summary": "L'immagine presenta un leone appoggiato in un'area boscosa con alberi e cespugli che la circondano.",
-        "unplash_desc": "lion in forest",
+        "summary": "The image features a lion resting in a forested area with trees and bushes surrounding it.",
+        "unsplash_desc": "lion in forest",
         "url": "https://images.unsplash.com/photo-1576314027994-6026c2303468",
-        "id": 10
-    },
-    {
-        "bounding_boxes": [
+        "not_in_image": [
             {
-                "id": 0,
-                "box": [
-                    13.61,
-                    1229.97,
-                    3670.26,
-                    3115.73
-                ],
-                "name": "iguana",
-                "score": 0.28,
-                "sysnets_same": true,
-                "translation": "l'iguana",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "Questa immagine presenta una singola iguana verde seduta su un ramo di albero. L'iguana ha scale e sembra guardare verso la telecamera con gli occhi aperti. Non interagisce con altri oggetti nella foto.",
-        "unplash_desc": "green iguana resting tree branch",
-        "url": "https://images.unsplash.com/photo-1518595122451-6b56ca0ceb4d",
-        "id": 11
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    984.43,
-                    2064.29,
-                    1595.97,
-                    2621.02
-                ],
-                "name": "dog",
-                "score": 0.247,
-                "sysnets_same": true,
-                "translation": "il cane",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "16.0",
-                    "18.0",
-                    "19.0",
-                    "20.1",
-                    "22.0",
-                    "23.0"
-                ]
-            }
-        ],
-        "summary": "Donna che cammina con il cane",
-        "unplash_desc": "woman walking with dog",
-        "url": "https://images.unsplash.com/photo-1542583376-98032b93ca89",
-        "id": 12
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    3203.52,
-                    2342.71,
-                    4172.21,
-                    3056.91
-                ],
-                "name": "shelf",
-                "score": 0.286,
-                "sysnets_same": true,
-                "translation": "la mensola",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "14.0",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.7",
-                    "15.0",
-                    "17.0",
-                    "18.0",
-                    "20.0",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "name": "clear water with white foam",
+                "translate": "L'acqua limpida con schiuma bianca"
             },
             {
-                "id": 1,
-                "box": [
-                    3027.1,
-                    2638.37,
-                    3303.89,
-                    2948.32
-                ],
-                "name": "pots",
-                "score": 0.203,
-                "sysnets_same": false,
-                "translation": "i vasi",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "name": "blue ocean water",
+                "translate": "l'acqua dell'oceano blu"
             },
             {
-                "id": 2,
-                "box": [
-                    3272.46,
-                    2606.75,
-                    4133.7,
-                    2729.41
-                ],
-                "name": "shelf",
-                "score": 0.168,
-                "sysnets_same": true,
-                "translation": "la mensola",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "14.0",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.7",
-                    "15.0",
-                    "17.0",
-                    "18.0",
-                    "20.0",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "name": "roof tiles with orange stripes",
+                "translate": "le piastrelle del tetto con strisce arancioni"
             },
             {
-                "id": 3,
-                "box": [
-                    1192.73,
-                    2878.32,
-                    1509.65,
-                    3156.15
-                ],
-                "name": "pots",
-                "score": 0.155,
-                "sysnets_same": false,
-                "translation": "i vasi",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "Piccolo di piante di cactus sopra i vasi davanti alla parete bianca.",
-        "unplash_desc": "pile of cactus plants in front of white wall",
-        "url": "https://images.unsplash.com/photo-1552758070-02c40ecffd5b",
-        "id": 13
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    1380.94,
-                    -3.58,
-                    2159.09,
-                    415.05
-                ],
-                "name": "pen",
-                "score": 0.187,
-                "sysnets_same": true,
-                "translation": "la penna",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.2",
-                    "14.3",
-                    "14.5",
-                    "14.6",
-                    "15.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "name": "surfboards",
+                "translate": "le tavole da surf"
             },
             {
-                "id": 1,
-                "box": [
-                    746.54,
-                    -8.13,
-                    3293.54,
-                    1199
-                ],
-                "name": "book",
-                "score": 0.266,
-                "sysnets_same": true,
-                "translation": "il libro",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.1",
-                    "13.3",
-                    "14.2",
-                    "14.3",
-                    "14.5",
-                    "14.6",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "name": "sea",
+                "translate": "il mare"
             },
             {
-                "id": 2,
-                "box": [
-                    3080.35,
-                    423.84,
-                    4017.49,
-                    1100.39
-                ],
-                "name": "bottle",
-                "score": 0.267,
-                "sysnets_same": true,
-                "translation": "la bottiglia",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.1",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.7",
-                    "15.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "name": "stamen",
+                "translate": "lo stame"
             },
             {
-                "id": 3,
-                "box": [
-                    141.18,
-                    1015.38,
-                    900.3,
-                    1690.39
-                ],
-                "name": "pen",
-                "score": 0.163,
-                "sysnets_same": true,
-                "translation": "la penna",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.2",
-                    "14.3",
-                    "14.5",
-                    "14.6",
-                    "15.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "name": "galaxy",
+                "translate": "la galassia"
             },
             {
-                "id": 4,
-                "box": [
-                    971.63,
-                    1587.85,
-                    1800.61,
-                    2415.22
-                ],
-                "name": "bottle",
-                "score": 0.214,
-                "sysnets_same": true,
-                "translation": "la bottiglia",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.1",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.7",
-                    "15.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "name": "red and white polka dot knitted sweater",
+                "translate": "il maglione a maglia a pois rosso e bianco"
             },
             {
-                "id": 5,
-                "box": [
-                    1939.8,
-                    1432.67,
-                    2522.67,
-                    2689.15
-                ],
-                "name": "pen",
-                "score": 0.173,
-                "sysnets_same": true,
-                "translation": "la penna",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.2",
-                    "14.3",
-                    "14.5",
-                    "14.6",
-                    "15.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "Un tavolo con vari oggetti artigianali su di esso.",
-        "unplash_desc": "black scissors beside green and white floral pen and gray and black scissors",
-        "url": "https://images.unsplash.com/photo-1581688156828-b887c5a8b1b1",
-        "id": 14
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    1547.65,
-                    542.57,
-                    3376.02,
-                    2514.27
-                ],
-                "name": "deer",
-                "score": 0.494,
-                "sysnets_same": true,
-                "translation": "il cervo",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "Deer marrone su campo di erba verde durante il giorno.",
-        "unplash_desc": "brown deer on green grass field during daytime",
-        "url": "https://images.unsplash.com/photo-1583870101809-06e3d5c9c503",
-        "id": 15
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    2257.83,
-                    1359.56,
-                    3640.59,
-                    3034.96
-                ],
-                "name": "backpack",
-                "score": 0.158,
-                "sysnets_same": true,
-                "translation": "lo zaino",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.1",
-                    "13.3",
-                    "14.1",
-                    "14.3",
-                    "14.5",
-                    "15.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "24.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "Uomo in zaino blu e nero in piedi sul campo di erba verde durante il giorno.",
-        "unplash_desc": "man in blue and black backpack standing on green grass field during daytime",
-        "url": "https://images.unsplash.com/photo-1591974250916-19041d07f4a4",
-        "id": 16
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    2605.3,
-                    2115.21,
-                    3186.36,
-                    3650.03
-                ],
-                "name": "person",
-                "score": 0.155,
-                "sysnets_same": true,
-                "translation": "la persona",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "2.0",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0"
-                ]
-            }
-        ],
-        "summary": "Persona in piedi vicino a montagna con zaino sul sentiero attraverso la collina.",
-        "unplash_desc": "person standing near mountain",
-        "url": "https://images.unsplash.com/photo-1557089711-f81aa988008e",
-        "id": 17
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    750.92,
-                    390.5,
-                    1605.41,
-                    952.4
-                ],
-                "name": "umbrella",
-                "score": 0.243,
-                "sysnets_same": false,
-                "translation": "l'ombrello",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "24.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "Una persona che tiene un ombrello in piedi su una superficie grigia.",
-        "unplash_desc": "person standing on gray surface while holding umbrella",
-        "url": "https://images.unsplash.com/photo-1447584402565-2a5b35a7ea8a",
-        "id": 18
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    4126.88,
-                    2931.29,
-                    5460.58,
-                    4011.94
-                ],
-                "name": "tree",
-                "score": 0.2,
-                "sysnets_same": true,
-                "translation": "l'albero",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.1",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "16.0",
-                    "17.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "Silhouette Foto di alberi durante la notte",
-        "unplash_desc": "silhouette photo of trees during nighttime",
-        "url": "https://images.unsplash.com/photo-1483576829476-175ebe2d9636",
-        "id": 19
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    2585.37,
-                    1026.85,
-                    3451.65,
-                    1408.33
-                ],
-                "name": "fish",
-                "score": 0.372,
-                "sysnets_same": true,
-                "translation": "il pesce",
-                "in_summary": false,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "10.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "23.0",
-                    "25.0"
-                ]
+                "name": "leaf",
+                "translate": "la foglia"
             },
             {
-                "id": 1,
-                "box": [
-                    -8,
-                    62.04,
-                    4558.63,
-                    3350.17
-                ],
-                "name": "aquarium",
-                "score": 0.155,
-                "sysnets_same": true,
-                "translation": "l'acquario",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.1",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "21.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
+                "name": "roof of the cave",
+                "translate": "Il tetto della grotta"
             }
         ],
-        "summary": "Donna che indossa una camicia nera a maniche lunghe di fronte all'acquario.",
-        "unplash_desc": "woman wearing black long-sleeved shirt facing the aquarium",
-        "url": "https://images.unsplash.com/photo-1511320621179-b6a2218d4592",
-        "id": 20
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    10.45,
-                    693.88,
-                    2754.49,
-                    4003.03
-                ],
-                "name": "cheetah",
-                "score": 0.549,
-                "sysnets_same": true,
-                "translation": "il ghepardo",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "1.0",
-                    "1.1",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.1",
-                    "22.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "Foto in primo piano di ghepardo sdraiato a terra.",
-        "unplash_desc": "closeup photo of cheetah lying on ground",
-        "url": "https://images.unsplash.com/photo-1516728778615-2d590ea1855e",
-        "id": 21
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    1435.41,
-                    1150.81,
-                    2496.7,
-                    1570.36
-                ],
-                "name": "orange guppy fish",
-                "score": 0.252,
-                "sysnets_same": false,
-                "translation": "il pesce arancione",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "21.0",
-                    "23.0",
-                    "24.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "L'immagine presenta un pesce arancione che nuota sott'acqua.",
-        "unplash_desc": "orange guppy fish",
-        "url": "https://images.unsplash.com/photo-1542383395438-1054e1248f2a",
-        "id": 22
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    1120.81,
-                    3927.93,
-                    1803.47,
-                    4278.8
-                ],
-                "name": "tents",
-                "score": 0.165,
-                "sysnets_same": false,
-                "translation": "le tende",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "1.1",
-                    "2.0",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "6.1",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "12.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "17.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "24.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "L'immagine raffigura un gruppo di tende allestite in un campeggio di notte sotto un cielo illuminato.",
-        "unplash_desc": "assorted-color tents",
-        "url": "https://images.unsplash.com/photo-1541960394435-cff41352d1e7",
-        "id": 23
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    928.08,
-                    1516.73,
-                    2299.85,
-                    4653.37
-                ],
-                "name": "horse",
-                "score": 0.173,
-                "sysnets_same": true,
-                "translation": "il cavallo",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "1.1",
-                    "3.0",
-                    "3.1",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "6.0",
-                    "6.1",
-                    "7.0",
-                    "8.0",
-                    "10.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "16.0",
-                    "17.0",
-                    "18.0",
-                    "19.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "25.0"
-                ]
-            }
-        ],
-        "summary": "Cavallo in piedi sul campo.",
-        "unplash_desc": "selective focus photography of horse",
-        "url": "https://images.unsplash.com/photo-1544630673-2f892d860923",
-        "id": 24
-    },
-    {
-        "bounding_boxes": [
-            {
-                "id": 0,
-                "box": [
-                    1796.39,
-                    2766.64,
-                    1935.61,
-                    3177.83
-                ],
-                "name": "person",
-                "score": 0.154,
-                "sysnets_same": true,
-                "translation": "la persona",
-                "in_summary": true,
-                "dissimilar_ids": [
-                    "0.0",
-                    "1.0",
-                    "2.0",
-                    "3.2",
-                    "3.3",
-                    "4.0",
-                    "5.0",
-                    "6.0",
-                    "7.0",
-                    "8.0",
-                    "9.0",
-                    "10.0",
-                    "11.0",
-                    "13.0",
-                    "13.1",
-                    "13.2",
-                    "13.3",
-                    "14.0",
-                    "14.1",
-                    "14.2",
-                    "14.3",
-                    "14.4",
-                    "14.5",
-                    "14.6",
-                    "14.7",
-                    "15.0",
-                    "16.0",
-                    "18.0",
-                    "19.0",
-                    "20.0",
-                    "20.1",
-                    "21.0",
-                    "22.0",
-                    "23.0",
-                    "24.0"
-                ]
-            }
-        ],
-        "summary": "Persona in piedi sulla sabbia",
-        "unplash_desc": "person standing on sand",
-        "url": "https://images.unsplash.com/photo-1546617275-0d0697e28e86",
-        "id": 25
+        "summary_translation": "L'immagine presenta un leone appoggiato in un'area boscosa con alberi e cespugli che la circondano.",
+        "credit": {
+            "photographer_username": "hans_veth",
+            "photographer_first_name": "Hans",
+            "photographer_last_name": "Veth"
+        }
     }
 ]
