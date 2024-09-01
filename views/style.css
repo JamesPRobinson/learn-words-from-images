@@ -1,5 +1,8 @@
 body {
   background-color: rgb(34, 34, 34);
+  margin: 0;
+  padding: 0;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .answer-button {
@@ -10,28 +13,19 @@ body {
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-flex;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
   justify-content: center;
   line-height: 1em;
-  list-style: none;
-  margin-bottom: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 1em;
-  outline: none;
+  margin: 0.5em;
   padding: 1em 1.1em;
-  position: relative;
   text-align: center;
   text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  transition: background-color 100ms;
+  width: auto; /* Adjusted to auto for horizontal arrangement */
+  min-width: 100px; /* Ensures buttons don't get too small */
 }
 
 .answer-button:hover,
@@ -52,43 +46,65 @@ body {
 }
 
 .grid-container {
-  display: grid;
-  
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
 }
 
 img {
-  width: 40%;
-  max-height: auto;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
 
 .credit {
   color: white;
   font-size: small;
+  text-align: center;
+  margin-top: 1em;
 }
 
-
-.row1 {
-  align-self: left;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row: 1;
-  justify-self: left;
+.row1, .row2, .row3 {
+  text-align: center;
+  width: 100%;
 }
 
-.row2 {
-  align-self: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row: 2;
-  grid-row-gap: 2em;
-  justify-self: center;
+#speakerButton {
+  font-size: 1em;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
-.row3 {
-  align-self: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row: 3;
-  grid-row-gap: 2em;
-  justify-self: center;
+.speaker-on {
+  color: green;
+}
+
+.speaker-off {
+  color: red;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .grid-container {
+    flex-direction: column; /* Stacks items vertically on mobile */
+    align-items: center;
+  }
+
+  .answer-button {
+    width: 100%; /* Full width for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .answer-button {
+    font-size: 12px;
+    padding: 0.8em; /* Smaller padding for small screens */
+  }
+
+  .credit {
+    font-size: x-small;
+  }
 }

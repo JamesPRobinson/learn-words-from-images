@@ -13,6 +13,7 @@ declare module 'express-session' {
     data: {
       object: Nullable<Object>
       image: Nullable<LangImage>
+      speakerOn: Nullable<boolean>
     }
   }
 }
@@ -44,7 +45,8 @@ app.get('/', (req: express.Request, res: express.Response) => {
   const object = image.objects[Math.floor(Math.random() * image.objects.length)]
   req.session.data = {
     object: object,
-    image: image
+    image: image,
+    speakerOn: req.session.data?.speakerOn ?? true
   }
   // get wrong answers
   const wrong_names = fetch_wrong_answer_names(image)
@@ -57,7 +59,8 @@ app.get('/', (req: express.Request, res: express.Response) => {
     names: names_all_images,
     box: object.box,
     artist_name: `${image.credit.photographer_first_name} ${image.credit.photographer_last_name}`,
-    artist_link: `https://unsplash.com/@${image.credit.photographer_username}`
+    artist_link: `https://unsplash.com/@${image.credit.photographer_username}`,
+    speakerOn: req.session.data?.speakerOn
   })
 })
 app.post('/answer', (req, res) => {
@@ -66,6 +69,15 @@ app.post('/answer', (req, res) => {
   // index that is tracking possible choices: does it's value match the text chosen by user?
   const is_in_image = req?.session?.data?.object?.translate == button_pressed
   res.send({ in_image: is_in_image })
+})
+app.post('/speaker', (req, res) => {
+  // speaker volume preference
+  if (req.session.data != undefined) {
+    req.session.data.speakerOn = Boolean(req.body.text)
+    res.send({
+      message: `The speaker config has been set to ${req.session.data.speakerOn}`
+    })
+  }
 })
 app.listen(port, () => {
   console.log(`App listening on port ${port}`)
